@@ -178,8 +178,10 @@ public class PaymentForm extends javax.swing.JInternalFrame {
 
         instalmentAmountTxt.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
 
+        ppnTxt.setEditable(false);
         ppnTxt.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
 
+        instalmentMonthTxt.setEditable(false);
         instalmentMonthTxt.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
 
         jLabel14.setText("Bulan");

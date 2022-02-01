@@ -64,6 +64,7 @@ public class DataForm extends javax.swing.JInternalFrame {
                 "Nomor Pesanan", "Nama Pemesan", "Area", "Tipe Rumah", "Luas Tanah", "Harga", "Lama Cicilan", "Cicilan / Bulan"
             }
         ));
+        tableData.setEnabled(false);
         jScrollPane1.setViewportView(tableData);
 
         toMenuButton.setText("Ke Menu Utama");
@@ -72,6 +73,10 @@ public class DataForm extends javax.swing.JInternalFrame {
                 toMenuButtonActionPerformed(evt);
             }
         });
+
+        totalHouseTxt.setEditable(false);
+
+        totalIncomeTxt.setEditable(false);
 
         jLabel1.setText("Jumlah Rumah Terjual");
 
